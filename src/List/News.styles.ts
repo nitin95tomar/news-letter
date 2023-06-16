@@ -9,6 +9,7 @@ const NewsListContainer = styled.div`
 const NewsThumbnail = styled.img`
 	height: 100px;
 	width: 100px;
+	cursor: pointer;
 `;
 
 const NewsItemContainer = styled.div`
@@ -33,6 +34,7 @@ const TagsHolder = styled.div`
 const Tag = styled.label`
 	border: 2px solid black;
 	margin: 2px;
+	cursor: pointer;
 `;
 
 const PageNumber = styled.label`

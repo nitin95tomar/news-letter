@@ -34,7 +34,7 @@ const News = ({
 				{results.length &&
 					results.map((item: any) => {
 						return (
-							<Styles.NewsItemContainer key={item.}>
+							<Styles.NewsItemContainer key={item.id}>
 								<Styles.NewsThumbnail
 									src={item.fields.thumbnail}
 									alt={item.fields.headline}
